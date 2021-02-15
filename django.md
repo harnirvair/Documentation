@@ -1,22 +1,29 @@
+
 # Django Commands
 - First run the django command to initialize the project
 `C:> django-admin startproject telusko`
+
 Open with visual studio
 To initalize the app
-`C:> python manage.py startapp calc`
+
+    C:> python manage.py startapp calc
+
 To start the server of django
-`C:> python manage.py runserver`
+
+    C:> python manage.py runserver
 
 In calc, create a urls.py file just like in the main project
-`path ('', views.home, name = 'home')`
+
+    path ('', views.home, name = 'home')
+
 Include the calc.urls in main projects urls.py
 Django template language
 Ginga
 
-`{% extends 'base.html' %}`
-`{% block content %}`
-`<h1>Hello </h1>`
-`{% endblock %}` 	
+    {% extends 'base.html' %}
+    {% block content %}
+    <h1>Hello </h1>
+    {% endblock %}
 
 We use  MVT Framework
 **Model** - Data
@@ -146,6 +153,9 @@ To clear whole data:
 > python manage.py flush
 
 Then run loaddata
+
+
+
 
 
 
