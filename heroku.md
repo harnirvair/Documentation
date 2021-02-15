@@ -2,7 +2,7 @@
 
 
  
-# Commands
+# Heroku Commands
  List apps of heroku 
 
     heroku apps
